@@ -7,7 +7,7 @@ ELMO模型来自于论文[Deep contextualized word representations](https://arxi
 >elmo_weights.hdf5 <br>
 
 ## 数据处理
-1.对dataset文件夹中的原始数据通过dataset_txt_to_json.py文件处理为json格式（根据个人下游任务需求处理）<br>
+1.对PICO数据集文件夹中的原始数据通过dataset_txt_to_json.py文件处理为json格式（根据个人下游任务需求处理）<br>
 2.训练集验证集生成vocab.txt词表文件<br>
 3.对数据进行padding处理
 ## 参考文献
